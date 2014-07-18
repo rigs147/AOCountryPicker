@@ -29,6 +29,53 @@ landingApp.factory('myService', function ($log, $cookieStore, $location) {
     }
 });
 
+landingApp.factory('utilityService', function () {
+
+    return {
+        getItemByName: function (name, items) {
+            var foundItem = _.find(items, function (item) {
+
+                return item.name === name;
+
+            });
+
+            return foundItem;
+        },
+        getEntryById: function (entryId, entries) {
+
+            var foundEntry = _.find(entries, function (entry) {
+
+                return entry.sys.id === entryId;
+
+            });
+
+            return foundEntry;
+
+        },
+        getAssetById: function (assetId, assets) {
+
+            var foundAsset = _.find(assets, function (asset) {
+
+                return asset.sys.id === assetId;
+
+            });
+
+            return foundAsset;
+
+        },
+        dataHasErrors: function (data) {
+
+            var errors = data.errors;
+            return (typeof errors !== "undefined");
+
+        }
+    }
+
+});
+
 landingApp.run(function (myService) {
     myService();
 });
+
+
+

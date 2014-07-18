@@ -1,7 +1,29 @@
+<div>{{name}}</div>
+<div>{{spaceId}}</div>
+<div>{{accessToken}}</div>
 <div>Please select a country</div>
 
+<!--<div class="container">-->
+<!--<div class="col-md-12">US</div>-->
+<!--<div class="col-md-12">UK</div>-->
+<!--<div class="col-md-12">EU</div>-->
+<!--</div>-->
+
 <div class="container">
-    <div class="col-md-12">US</div>
-    <div class="col-md-12">UK</div>
-    <div class="col-md-12">EU</div>
+    <blockquote ng-repeat="country in countries" class="bs-callout">
+        <h1>{{country.fields.name}}</h1>
+        <ul>
+            <li ng-repeat="office in country.fields.office">{{office.fields.name}}
+                <ul>
+                    <li>{{office.fields.netscaler.fields.name}}
+                        <ul>
+                            <li ng-repeat="config in office.fields.netscaler.fields.config">{{config.fields.title}}-{{config.fields.file.fileName}}</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </blockquote>
 </div>
+
+{{countries}}
