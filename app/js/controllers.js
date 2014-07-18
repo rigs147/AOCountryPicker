@@ -19,14 +19,14 @@ landingApp.controller('CountryPickerCtrl', function ($scope, $log, $cookieStore,
     $scope.spaceId = contentfulConfig.spaceId;
     $scope.accessToken = contentfulConfig.accessToken;
 
-    var spaceid, query, log, contentTypes;
+    var spaceid, query, contentTypes;
 
 
     spaceid = contentfulConfig.spaceId;
 
 
     // get the content types first
-    $scope.ctrlOutput = utilityService.getItemByName("Mike");
+//    $scope.ctrlOutput = utilityService.getItemByName("Mike");
 
 
     contentful.contentDelivery.httpGet(spaceid, "content_types").then(
@@ -60,7 +60,7 @@ landingApp.controller('CountryPickerCtrl', function ($scope, $log, $cookieStore,
                     var items = countryResponse.data.items;
                     var entries = countryResponse.data.includes.Entry;
                     var assets = countryResponse.data.includes.Asset;
-
+//                  var errors =
                     // roll up entries and assets into the country items...
                     _.forEach(items, function (item) {
 
