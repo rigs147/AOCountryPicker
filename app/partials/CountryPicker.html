@@ -18,7 +18,7 @@
     <blockquote ng-repeat="country in countries | filter: search | filter: searchOffice" class="bs-callout">
         <h1>{{country.fields.name}}</h1>
         <ul>
-            <li ng-repeat="office in country.fields.office | filter: searchOffice">{{office.fields.name}}
+            <li ng-repeat="office in country.fields.office | filter: searchOffice"><a ng-href="{{office.fields.netscaler.fields.urlEndpoint}}">{{office.fields.name}}</a>
                 <ul>
                     <li>{{office.fields.netscaler.fields.name}}
                         <ul>
@@ -31,4 +31,6 @@
     </blockquote>
 </div>
 
+<!--<a href="" class="thumbnail aobackground-LightNeutrals-Silver" ng-repeat="office in country.offices | filter: searchOffice"-->
+   <!--ng-click="selectedOffice(office.name)">{{office.name}}</a>-->
 <!--{{countries}}-->
