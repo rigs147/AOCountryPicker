@@ -9,11 +9,16 @@
 <!--<div class="col-md-12">EU</div>-->
 <!--</div>-->
 
+<div>
+    <input type="text" ng-model="search.fields.name" placeholder="Enter Country Name"/>
+    <input type="text" ng-model="searchOffice" placeholder="Enter Office Name"/>
+</div>
+
 <div class="container">
-    <blockquote ng-repeat="country in countries" class="bs-callout">
+    <blockquote ng-repeat="country in countries | filter: search | filter: searchOffice" class="bs-callout">
         <h1>{{country.fields.name}}</h1>
         <ul>
-            <li ng-repeat="office in country.fields.office">{{office.fields.name}}
+            <li ng-repeat="office in country.fields.office | filter: searchOffice">{{office.fields.name}}
                 <ul>
                     <li>{{office.fields.netscaler.fields.name}}
                         <ul>
