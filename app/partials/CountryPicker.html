@@ -1,36 +1,42 @@
 <div>{{name}}</div>
 <div>{{spaceId}}</div>
 <div>{{accessToken}}</div>
-<div>Please select an Office</div>
 
-<!--<div class="container">-->
-<!--<div class="col-md-12">US</div>-->
-<!--<div class="col-md-12">UK</div>-->
-<!--<div class="col-md-12">EU</div>-->
-<!--</div>-->
+<div>Version: {{version}}</div>
 
-<div>
-    <!--<input type="text" ng-model="search.fields.name" placeholder="Enter Country Name"/>-->
-    <input type="text" ng-model="searchOffice" placeholder="Enter Office Name" />
+<div ng-show="isDesktop">
+    <div>Please select an Office</div>
+
+    <div>
+        <input type="text" ng-model="searchOffice" placeholder="Enter Office Name" autofocus/>
+    </div>
+
+    <div class="container">
+        <blockquote ng-repeat="country in countries | filter: search | filter: searchOffice" class="bs-callout">
+            <h1>{{country.fields.name}}</h1>
+            <ul>
+                <li ng-repeat="office in country.fields.office | filter: searchOffice"><a
+                        ng-href="{{office.fields.netscaler.fields.urlEndpoint}}" ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a>
+                    <ul ng-hide="isDesktop">
+                        <li>{{office.fields.netscaler.fields.name}}
+                            <ul>
+                                <li ng-repeat="config in office.fields.netscaler.fields.config">
+                                    {{config.fields.title}}-{{config.fields.file.fileName}}
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </blockquote>
+    </div>
 </div>
 
-<div class="container">
-    <blockquote ng-repeat="country in countries | filter: search | filter: searchOffice" class="bs-callout">
-        <h1>{{country.fields.name}}</h1>
-        <ul>
-            <li ng-repeat="office in country.fields.office | filter: searchOffice"><a ng-href="{{office.fields.netscaler.fields.urlEndpoint}}">{{office.fields.name}}</a>
-                <ul>
-                    <li>{{office.fields.netscaler.fields.name}}
-                        <ul>
-                            <li ng-repeat="config in office.fields.netscaler.fields.config">{{config.fields.title}}-{{config.fields.file.fileName}}</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </blockquote>
+<div ng-show="!isDesktop">
+    Receiver file links
+    <div ng-repeat="asset in assets">{{asset.fields.title}}-{{asset.fields.file.fileName}}</div>
 </div>
 
 <!--<a href="" class="thumbnail aobackground-LightNeutrals-Silver" ng-repeat="office in country.offices | filter: searchOffice"-->
-   <!--ng-click="selectedOffice(office.name)">{{office.name}}</a>-->
+<!--ng-click="selectedOffice(office.name)">{{office.name}}</a>-->
 <!--{{countries}}-->

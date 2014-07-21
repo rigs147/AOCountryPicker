@@ -1,15 +1,22 @@
 'use strict';
 
 /* Services */
+landingApp.service('helperService', function () {
+  this.isDesktop = true;
+  this.version = null;
+});
 
-landingApp.factory('myService', function ($log, $cookieStore, $location) {
+landingApp.factory('myService', function ($log, $cookieStore, $location, helperService) {
 
     return function () {
 
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|SymbianOS/i.test(navigator.userAgent)) {
+
+            helperService.isDesktop = false;
 
             $log.info('You are on a mobile device. ');
             //open native receiver. search for citrix receiver.exe?? Get receiver file
+            $location.path('/CountryPicker');
         }
         else {
 
@@ -19,6 +26,7 @@ landingApp.factory('myService', function ($log, $cookieStore, $location) {
             if (cookie != undefined) {
 
                 //Go to office of aoCookie value
+                window.open(cookie.message);
 
             } else {
                 $location.path('/CountryPicker');

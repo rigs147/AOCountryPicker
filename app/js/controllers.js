@@ -11,13 +11,15 @@
 //
 //}]);
 
-landingApp.controller('CountryPickerCtrl', function ($scope, $log, $cookieStore, contentfulConfig, contentful, utilityService) {
+landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $cookieStore, contentfulConfig, contentful, utilityService, helperService) {
 
     $scope.name = "CountryPickerCtrl";
+    $scope.isDesktop = helperService.isDesktop;
 
     // check that the config is set
     $scope.spaceId = contentfulConfig.spaceId;
     $scope.accessToken = contentfulConfig.accessToken;
+    $scope.version = helperService.version;
 
     var spaceid, query, contentTypes;
 
@@ -60,7 +62,12 @@ landingApp.controller('CountryPickerCtrl', function ($scope, $log, $cookieStore,
                     var items = countryResponse.data.items;
                     var entries = countryResponse.data.includes.Entry;
                     var assets = countryResponse.data.includes.Asset;
-//                  var errors =
+
+                    //Sean change - Need to get all assets only for mobile only page
+                    $scope.assets = assets;
+
+//                    var errors =
+
                     // roll up entries and assets into the country items...
                     _.forEach(items, function (item) {
 
@@ -76,7 +83,7 @@ landingApp.controller('CountryPickerCtrl', function ($scope, $log, $cookieStore,
                             var foundNetscaler = utilityService.getEntryById(foundOffice.fields.netscaler.sys.id, entries);
 
                             // get the config files
-                            var foundConfigs = []
+                            var foundConfigs = [];
 
                             _.forEach(foundNetscaler.fields.config, function (config) {
 
@@ -121,6 +128,10 @@ landingApp.controller('CountryPickerCtrl', function ($scope, $log, $cookieStore,
         }
     ).then();
 
+    $scope.pushCookie = function(officeUrl) {
+        $cookieStore.put('aoCookie', { message: officeUrl });
+        $log.info($cookieStore.get('aoCookie').message);
+    };
 
     //populate country list
 
