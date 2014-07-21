@@ -1,6 +1,6 @@
-<div>{{name}}</div>
-<div>{{spaceId}}</div>
-<div>{{accessToken}}</div>
+<!--<div>{{name}}</div>-->
+<!--<div>{{spaceId}}</div>-->
+<!--<div>{{accessToken}}</div>-->
 
 <div>Version: {{version}}</div>
 
@@ -11,32 +11,59 @@
         <input type="text" ng-model="searchOffice" placeholder="Enter Office Name" autofocus/>
     </div>
 
-    <div class="container">
-        <blockquote ng-repeat="country in countries | filter: search | filter: searchOffice" class="bs-callout">
-            <h1>{{country.fields.name}}</h1>
-            <ul>
-                <li ng-repeat="office in country.fields.office | filter: searchOffice"><a
-                        ng-href="{{office.fields.netscaler.fields.urlEndpoint}}" ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a>
-                    <ul ng-hide="isDesktop">
-                        <li>{{office.fields.netscaler.fields.name}}
-                            <ul>
-                                <li ng-repeat="config in office.fields.netscaler.fields.config">
-                                    {{config.fields.title}}-{{config.fields.file.fileName}}
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </blockquote>
+    <!--<div class="container">-->
+    <div ng-repeat="country in countries | filter: searchOffice | orderBy: 'country.fields.name'"
+         class="col-md-2 col-sm-3 col-xs-12 thumbnail aobackground-LightNeutrals-Silver">
+        <div><h2>{{country.fields.name}}</h2>
+
+            <div ng-repeat="office in country.fields.office | filter: searchOffice | orderBy: 'office.fields.name'">
+            <h3><a class=""
+                    ng-href="{{office.fields.netscaler.fields.urlEndpoint}}"
+                    ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a></h3>
+            </div>
+
+        </div>
     </div>
 </div>
+<!--</div>-->
 
 <div ng-show="!isDesktop">
     Receiver file links
     <div ng-repeat="asset in assets">{{asset.fields.title}}-{{asset.fields.file.fileName}}</div>
 </div>
 
+<!--<div>{{name}}</div>-->
+<!--<div>{{spaceId}}</div>-->
+<!--<div>{{accessToken}}</div>-->
+
+<!--<div>Version: {{version}}</div>-->
+
+<!--<div ng-show="isDesktop">-->
+<!--<div>Please select an Office</div>-->
+
+<!--<div>-->
+<!--<input type="text" ng-model="searchOffice" placeholder="Enter Office Name" autofocus/>-->
+<!--</div>-->
+
+<!--<div class="container">-->
+<!--<blockquote ng-repeat="country in countries | filter: searchOffice" class="bs-callout">-->
+<!--<h1>{{country.fields.name}}</h1>-->
+<!--<ul>-->
+<!--<li ng-repeat="office in country.fields.office | filter: searchOffice"><a-->
+<!--ng-href="{{office.fields.netscaler.fields.urlEndpoint}}" ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a>-->
+
+<!--</li>-->
+<!--</ul>-->
+<!--</blockquote>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div ng-show="!isDesktop">-->
+<!--Receiver file links-->
+<!--<div ng-repeat="asset in assets">{{asset.fields.title}}-{{asset.fields.file.fileName}}</div>-->
+<!--</div>-->
+
 <!--<a href="" class="thumbnail aobackground-LightNeutrals-Silver" ng-repeat="office in country.offices | filter: searchOffice"-->
 <!--ng-click="selectedOffice(office.name)">{{office.name}}</a>-->
 <!--{{countries}}-->
+

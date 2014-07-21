@@ -63,10 +63,16 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
                     var entries = countryResponse.data.includes.Entry;
                     var assets = countryResponse.data.includes.Asset;
 
-                    //Sean change - Need to get all assets only for mobile only page
-                    $scope.assets = assets;
+                    //seans change - specifically error handling from contentful
+                    var error = countryResponse.data.includes.errors;
+                    if (error != undefined) {
+                        $log.info(error);
+                    }
+                    //end of error handling
 
-//                    var errors =
+                    //Seans change - Need to get all assets only for mobile only page
+                    $scope.assets = assets;
+                    //end of seans change
 
                     // roll up entries and assets into the country items...
                     _.forEach(items, function (item) {
@@ -117,6 +123,7 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
                 }, function (data, status, headers, config) { // ERROR CALLBACK
 
                     console.log("ERROR country get:"); // todo: delete me
+
 
                 });
 

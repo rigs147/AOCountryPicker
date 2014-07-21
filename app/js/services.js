@@ -6,11 +6,18 @@ landingApp.service('helperService', function () {
   this.version = null;
 });
 
-landingApp.factory('myService', function ($log, $cookieStore, $location, helperService) {
+landingApp.factory('myService', function ($log, $window, $cookieStore, $location, helperService) {
 
     return function () {
 
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|SymbianOS/i.test(navigator.userAgent)) {
+
+            if (/Android/i.test(navigator.userAgent)) {
+                $log.info('You are on an Android device');
+            }
+            if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+                $log.info('You are on an Ios device');
+            }
 
             helperService.isDesktop = false;
 
@@ -26,7 +33,8 @@ landingApp.factory('myService', function ($log, $cookieStore, $location, helperS
             if (cookie != undefined) {
 
                 //Go to office of aoCookie value
-                window.open(cookie.message);
+//                window.open(cookie.message);
+                $window.location.href = cookie.message;
 
             } else {
                 $location.path('/CountryPicker');
