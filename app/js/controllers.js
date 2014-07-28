@@ -11,10 +11,13 @@
 //
 //}]);
 
-landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $cookieStore, contentfulConfig, contentful, utilityService, helperService) {
+landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $cookieStore, contentfulConfig, contentful, utilityService, helperService, $window) {
 
     $scope.name = "CountryPickerCtrl";
     $scope.isDesktop = helperService.isDesktop;
+    $scope.isAndroid = helperService.isAndroid;
+    $scope.isIos = helperService.isIos;
+
 
     // check that the config is set
     $scope.spaceId = contentfulConfig.spaceId;
@@ -30,6 +33,10 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
     // get the content types first
 //    $scope.ctrlOutput = utilityService.getItemByName("Mike");
 
+
+//    if(IE){
+//
+//    }
 
     contentful.contentDelivery.httpGet(spaceid, "content_types").then(
         function (response) { // SUCCESS CALLBACK
@@ -72,6 +79,7 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
 
                     //Seans change - Need to get all assets only for mobile only page
                     $scope.assets = assets;
+                    $log.info(assets);
                     //end of seans change
 
                     // roll up entries and assets into the country items...
@@ -139,6 +147,10 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
         $cookieStore.put('aoCookie', { message: officeUrl });
         $log.info($cookieStore.get('aoCookie').message);
     };
+
+//    $scope.openReceiver = function(assetUrl) {
+//        $window.location.href = assetUrl;
+//    };
 
     //populate country list
 

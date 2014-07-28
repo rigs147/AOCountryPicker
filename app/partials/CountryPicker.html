@@ -2,6 +2,15 @@
 <!--<div>{{spaceId}}</div>-->
 <!--<div>{{accessToken}}</div>-->
 
+<div class="alert alert-dismissable alert-info">
+    <!--<button class="close" data-dismiss="alert" type="button">×</button>-->
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <h4>Cookie Information</h4>
+    A cookie is a text-only string of information that this website transfers to the cookie file of the browser on your computer. For example, this page uses cookies to capture whether you have selected your home office and as a result will not display this page and redirect you to the signin page.
+</div>
+<!--$(".alert").alert();-->
+
+
 <div>Version: {{version}}</div>
 
 <div ng-show="isDesktop">
@@ -12,11 +21,11 @@
     </div>
 
     <!--<div class="container">-->
-    <div ng-repeat="country in countries | filter: searchOffice | orderBy: 'country.fields.name'"
+    <div ng-repeat="country in countries |filter: searchOffice"
          class="col-md-2 col-sm-3 col-xs-12 thumbnail aobackground-LightNeutrals-Silver">
         <div><h2>{{country.fields.name}}</h2>
 
-            <div ng-repeat="office in country.fields.office | filter: searchOffice | orderBy: 'office.fields.name'">
+            <div ng-repeat="office in country.fields.office | filter: searchOffice">
             <h3><a class=""
                     ng-href="{{office.fields.netscaler.fields.urlEndpoint}}"
                     ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a></h3>
@@ -29,7 +38,12 @@
 
 <div ng-show="!isDesktop">
     Receiver file links
-    <div ng-repeat="asset in assets">{{asset.fields.title}}-{{asset.fields.file.fileName}}</div>
+    <div ng-show="isAndroid">This is an Android device.</div>
+    <div ng-show="isIos">This is an Ios device.</div>
+
+    <div>Please click on the appropriate link for your device.</div>
+    <div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" >{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>
+    <!--<div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" ng-click="openReceiver(asset.fields.url)">{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>-->
 </div>
 
 <!--<div>{{name}}</div>-->
