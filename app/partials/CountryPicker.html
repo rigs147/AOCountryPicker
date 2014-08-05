@@ -6,7 +6,9 @@
     <!--<button class="close" data-dismiss="alert" type="button">×</button>-->
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     <h4>Cookie Information</h4>
-    A cookie is a text-only string of information that this website transfers to the cookie file of the browser on your computer. For example, this page uses cookies to capture whether you have selected your home office and as a result will not display this page and redirect you to the signin page.
+    A cookie is a text-only string of information that this website transfers to the cookie file of the browser on your
+    computer. For example, this page uses cookies to capture whether you have selected your home office and as a result
+    will not display this page and redirect you to the signin page.
 </div>
 <!--$(".alert").alert();-->
 
@@ -28,11 +30,13 @@
         <div><h2>{{country.fields.name}}</h2>
 
             <div ng-repeat="office in country.fields.office | filter: searchOffice">
-            <h3 ng-show="isDesktop"><a class=""
-                    ng-href="{{office.fields.netscaler.fields.urlEndpoint}}"
-                    ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a></h3>
+                <h3 ng-show="isDesktop"><a class="" ng-href="{{office.fields.netscaler.fields.urlEndpoint}}"
+                                           ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a>
+                </h3>
+
                 <h3 ng-show="!isDesktop"><a class=""
-                       ng-href="{{office.fields.netscaler.fields.config.fields.file.url}}">A{{office.fields.name}}</a></h3>
+                                            ng-href="{{office.fields.netscaler.fields.config.0.fields.file.url}}">A{{office.fields.name}}</a>
+                </h3>
             </div>
 
         </div>
