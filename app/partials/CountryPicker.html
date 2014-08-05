@@ -13,7 +13,9 @@
 
 <div>Version: {{version}}</div>
 
-<div ng-show="isDesktop">
+<!--<div ng-show="isDesktop">-->
+<!--changed this as we now need a country picker for mobile devices as well-->
+<div>
     <div>Please select an Office</div>
 
     <div>
@@ -26,9 +28,11 @@
         <div><h2>{{country.fields.name}}</h2>
 
             <div ng-repeat="office in country.fields.office | filter: searchOffice">
-            <h3><a class=""
+            <h3 ng-show="isDesktop"><a class=""
                     ng-href="{{office.fields.netscaler.fields.urlEndpoint}}"
                     ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a></h3>
+                <h3 ng-show="!isDesktop"><a class=""
+                       ng-href="{{office.fields.netscaler.fields.config.fields.file.url}}">A{{office.fields.name}}</a></h3>
             </div>
 
         </div>
@@ -41,8 +45,8 @@
     <div ng-show="isAndroid">This is an Android device.</div>
     <div ng-show="isIos">This is an Ios device.</div>
 
-    <div>Please click on the appropriate link for your device.</div>
-    <div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" >{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>
+    <!--<div>Please click on the appropriate link for your device.</div>-->
+    <!--<div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" >{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>-->
     <!--<div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" ng-click="openReceiver(asset.fields.url)">{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>-->
 </div>
 
