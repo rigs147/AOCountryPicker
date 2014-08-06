@@ -34,8 +34,10 @@
                                            ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a>
                 </h3>
 
-                <h3 ng-show="!isDesktop"><a class=""
-                                            ng-href="{{office.fields.netscaler.fields.config.0.fields.file.url}}">A{{office.fields.name}}</a>
+                <h3 ng-show="!isDesktop&&!isAndroid"><a class=""
+                                            ng-href="{{office.fields.netscaler.fields.config.0.fields.file.url}}">MD-{{office.fields.name}}</a>
+                </h3>
+                <h3 ng-show="isAndroid"><a class="" ng-href="{{office.fields.netscaler.fields.config.1.fields.file.url}}">MD-{{office.fields.name}}</a>
                 </h3>
             </div>
 
