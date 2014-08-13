@@ -51,14 +51,14 @@
                         <!--ng-click="pushCookie(country.fields.office[0].fields.netscaler.fields.urlEndpoint)">{{country.fields.name}}</a></h2>-->
 
                         <!--<div ng-repeat="office in country.fields.office | filter: searchOffice">-->
-                        <h2 ng-show="isDesktop">
+                        <div ng-show="isDesktop" class="">
 
                             <a class="thumbnail countryItem aobackground-LightNeutrals-Silver"
                                ng-href="{{country.fields.office[0].fields.netscaler.fields.urlEndpoint}}"
                                ng-click="pushCookie(country.fields.office[0].fields.netscaler.fields.urlEndpoint)"><img
                                     class="pull-left countryImg"
                                     ng-src="{{country.fields.flag.fields.file.url}}"/>&nbsp;{{country.name}}{{country.fields.name}}</a>
-                        </h2>
+                        </div>
 
                         <h2 ng-show="!isDesktop&&!isAndroid"><a
                                 class="thumbnail countryItem aobackground-LightNeutrals-Silver"

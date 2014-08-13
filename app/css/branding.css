@@ -296,6 +296,22 @@ h3 {
 
 .countryImg {
     padding-top: 11px;
+    padding-bottom: 13px;
 }
 
+@media (max-width: 1024px) {
+    .countryItem {
+        width: 185px;
+    }
+    .countryImg {
+        padding-bottom: 15px;
+    }
+    .countryItem {
+        line-height: 2.1em;
+    }
+}
+
+.ie .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 15%;
+}
 
