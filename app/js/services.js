@@ -3,7 +3,7 @@
 /* Services */
 landingApp.service('helperService', function () {
     this.isDesktop = true;
-    this.isAndroid = false
+    this.isAndroid = false;
     this.isIos = false;
     this.version = null;
 });

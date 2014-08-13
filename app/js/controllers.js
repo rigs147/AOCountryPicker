@@ -86,10 +86,18 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
                     _.forEach(items, function (item) {
 
 
+                        //sean
+                        var foundFlag = utilityService.getAssetById(item.fields.flag.sys.id, assets);
+                        item.fields.flag = foundFlag;
+                        //end sean
+
+
                         // roll up office entries for the item...
                         var foundOffices = [];
 
                         _.forEach(item.fields.office, function (office) {
+
+
 
                             var foundOffice = utilityService.getEntryById(office.sys.id, entries);
 
@@ -124,6 +132,7 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
                     // END: POST PROCESS
 
                     console.log("COUNTRIES POST PROCESS", countryResponse.data.items); // todo: delete me
+//                    console.log(JSON.stringify(countryResponse.data.items));
 
                     $scope.countries = countryResponse.data.items;
 
