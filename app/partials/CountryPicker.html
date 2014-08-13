@@ -62,7 +62,7 @@
 
                         <h2 ng-show="!isDesktop&&!isAndroid"><a
                                 class="thumbnail countryItem aobackground-LightNeutrals-Silver"
-                                
+                                ng-href="{{country.fields.office[0].fields.netscaler.fields.config.0.fields.file.url}}"
                                 download="{{country.fields.office[0].fields.netscaler.fields.config.0.fields.file.fileName}}">
                             <img class="pull-left countryImg"
                                  ng-src="{{country.fields.flag.fields.file.url}}"/>&nbsp;{{country.fields.name}}</a>
