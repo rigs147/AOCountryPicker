@@ -18,11 +18,8 @@ var landingApp = angular.module('landingApp', [
 ]);
 
 landingApp.config(['$routeProvider', function($routeProvider) {
-//  $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: 'MyCtrl1'});
-//  $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
   $routeProvider.when('/CountryPicker', {templateUrl: 'partials/CountryPicker.html', controller: 'CountryPickerCtrl'});
-
-//  $routeProvider.otherwise({redirectTo: '/CountryPicker'});
+  $routeProvider.otherwise({redirectTo: '/CountryPicker'});
 }]);
 
 landingApp.run(function(contentfulConfig, helperService){

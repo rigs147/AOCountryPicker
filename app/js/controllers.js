@@ -2,16 +2,7 @@
 
 /* Controllers */
 
-//landingApp.controller('MyCtrl1', ['$scope', function ($scope) {
-//
-//
-//
-//}]);
-//landingApp.controller('MyCtrl2', ['$scope', function ($scope) {
-//
-//}]);
-
-landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $cookieStore, contentfulConfig, contentful, utilityService, helperService, $window) {
+landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $cookieStore, contentfulConfig, contentful, utilityService, helperService, $window, $filter) {
 
     $scope.name = "CountryPickerCtrl";
     $scope.isDesktop = helperService.isDesktop;
@@ -72,7 +63,7 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
 
                     //seans change - specifically error handling from contentful
                     var error = countryResponse.data.includes.errors;
-                    if (error != undefined) {
+                    if (error !== undefined) {
                         $log.info(error);
                     }
                     //end of error handling
@@ -139,7 +130,7 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
 
                 }, function (data, status, headers, config) { // ERROR CALLBACK
 
-                    console.log("ERROR country get:"); // todo: delete me
+                    console.log("ERROR country get:" + data); // todo: delete me
 
 
                 });
@@ -147,7 +138,7 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
 
         },
         function (data, status, headers, config) { // ERROR CALLBACK
-            console.log("ERROR content type get:"); // todo: delete me
+            console.log("ERROR content type get:" + data); // todo: delete me
 
         }
     ).then();
@@ -157,13 +148,11 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
         $log.info($cookieStore.get('aoCookie').message);
     };
 
-//    $scope.openReceiver = function(assetUrl) {
-//        $window.location.href = assetUrl;
-//    };
-
-    //populate country list
-
-    //If 'US' selected, set cookie, value = 'US', redirect to US office
-    //$cookieStore.put('aoCookie', { message: 'US' });
+    //Can't use generic filter as can't discern between office and country (both fields.name)
+    $scope.countrySearch = function(country) {
+        var countryName = [country.fields.name]; // Wrapping in array since the 'filter' $filter expects an array.
+        var matches = $filter('filter')(countryName, $scope.searchTerm); // Running country name through filter searching for $scope.searchTerm
+        return matches.length > 0;
+    }
 
 });

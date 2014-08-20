@@ -11,7 +11,6 @@
 <!--will not display this page and redirect you to the signin page.-->
 <!--</div>-->
 
-<div>Version: {{version}}</div>
 
 <div>
     <!--<div class="ao-element-H1">Please select a Country</div>-->
@@ -41,17 +40,17 @@
                 <div class="ao-rteElement-H1">Please select a Country</div>
 
                 <div>
-                    <input type="text" ng-model="country.name" placeholder="Enter Country Name" autofocus/>
+                    <input type="text" ng-model="searchTerm" placeholder="Enter Country Name" autofocus/>
                 </div>
 
-                <div ng-repeat="country in countries |filter: country.name | orderBy:'fields.name'"
+                <div ng-repeat="country in countries |filter: countrySearch | orderBy:'fields.name'"
                      class="row-fluid">
                     <div class="offset2 span8">
                         <!--<h2 ng-show="isDesktop"><a class="" ng-href="{{country.fields.office[0].fields.netscaler.fields.urlEndpoint}}"-->
                         <!--ng-click="pushCookie(country.fields.office[0].fields.netscaler.fields.urlEndpoint)">{{country.fields.name}}</a></h2>-->
 
                         <!--<div ng-repeat="office in country.fields.office | filter: searchOffice">-->
-                        <div ng-show="isDesktop" class="">
+                        <div ng-show="isDesktop">
 
                             <a class="thumbnail countryItem aobackground-LightNeutrals-Silver"
                                ng-href="{{country.fields.office[0].fields.netscaler.fields.urlEndpoint}}"
@@ -60,20 +59,20 @@
                                     ng-src="{{country.fields.flag.fields.file.url}}"/>&nbsp;{{country.name}}{{country.fields.name}}</a>
                         </div>
 
-                        <h2 ng-show="!isDesktop&&!isAndroid"><a
+                        <div ng-show="!isDesktop&&!isAndroid"><a
                                 class="thumbnail countryItem aobackground-LightNeutrals-Silver"
                                 ng-href="{{country.fields.office[0].fields.netscaler.fields.config.0.fields.file.url}}"
                                 download="{{country.fields.office[0].fields.netscaler.fields.config.0.fields.file.fileName}}">
                             <img class="pull-left countryImg"
                                  ng-src="{{country.fields.flag.fields.file.url}}"/>&nbsp;{{country.fields.name}}</a>
-                        </h2>
+                        </div>
 
-                        <h2 ng-show="isAndroid"><a class="thumbnail countryItem aobackground-LightNeutrals-Silver"
+                        <div ng-show="isAndroid"><a class="thumbnail countryItem aobackground-LightNeutrals-Silver"
                                                    ng-href="{{country.fields.office[0].fields.netscaler.fields.config.1.fields.file.url}}"
                                                    download="{{country.fields.office[0].fields.netscaler.fields.config.1.fields.file.fileName}}">
                             <img class="pull-left countryImg"
                                  ng-src="{{country.fields.flag.fields.file.url}}"/>&nbsp;{{country.fields.name}}</a>
-                        </h2>
+                        </div>
                         <!--</div>-->
 
                     </div>
@@ -83,9 +82,9 @@
     </div>
 
     <!--</div>-->
-
+    <div>Version: {{version}}</div>
     <div ng-show="!isDesktop">
-        Receiver file links
+        <!--Receiver file links-->
         <div ng-show="isAndroid">This is an Android device.</div>
         <div ng-show="isIos">This is an Ios device.</div>
 
@@ -94,63 +93,5 @@
         <!--<div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" ng-click="openReceiver(asset.fields.url)">{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>-->
     </div>
 
-    <!--************************************************************Backup 12/08/14****************************************************************************************************************-->
-    <!--<div>{{name}}</div>-->
-    <!--<div>{{spaceId}}</div>-->
-    <!--<div>{{accessToken}}</div>-->
 
-    <!--<div class="alert alert-dismissable alert-info">-->
-    <!--&lt;!&ndash;<button class="close" data-dismiss="alert" type="button">×</button>&ndash;&gt;-->
-    <!--<button type="button" class="close" data-dismiss="alert">&times;</button>-->
-    <!--<h4>Cookie Information</h4>-->
-    <!--A cookie is a text-only string of information that this website transfers to the cookie file of the browser on your-->
-    <!--computer. For example, this page uses cookies to capture whether you have selected your home office and as a result-->
-    <!--will not display this page and redirect you to the signin page.-->
-    <!--</div>-->
-
-
-    <!--<div>Version: {{version}}</div>-->
-
-    <!--<div>-->
-    <!--<div>Please select an Office</div>-->
-
-    <!--<div>-->
-    <!--<input type="text" ng-model="searchOffice" placeholder="Enter Office Name" autofocus/>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash;<div class="container">&ndash;&gt;-->
-    <!--<div ng-repeat="country in countries |filter: searchOffice"-->
-    <!--class="col-md-2 col-sm-3 col-xs-12 thumbnail aobackground-LightNeutrals-Silver">-->
-    <!--<div><h2>{{country.fields.name}}</h2>-->
-
-    <!--<div ng-repeat="office in country.fields.office | filter: searchOffice">-->
-    <!--<h3 ng-show="isDesktop"><a class="" ng-href="{{office.fields.netscaler.fields.urlEndpoint}}"-->
-    <!--ng-click="pushCookie(office.fields.netscaler.fields.urlEndpoint)">{{office.fields.name}}</a>-->
-    <!--</h3>-->
-
-    <!--<h3 ng-show="!isDesktop&&!isAndroid"><a class=""-->
-    <!--ng-href="{{office.fields.netscaler.fields.config.0.fields.file.url}}" download="{{office.fields.netscaler.fields.config.0.fields.file.url}}">MD-{{office.fields.name}}</a>-->
-    <!--</h3>-->
-    <!--<h3 ng-show="isAndroid"><a class="" ng-href="{{office.fields.netscaler.fields.config.1.fields.file.url}}" download="{{office.fields.netscaler.fields.config.1.fields.file.fileName}}">MD-{{office.fields.name}}</a>-->
-    <!--</h3>-->
-    <!--</div>-->
-
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-    <!--<div ng-show="!isDesktop">-->
-    <!--Receiver file links-->
-    <!--<div ng-show="isAndroid">This is an Android device.</div>-->
-    <!--<div ng-show="isIos">This is an Ios device.</div>-->
-
-    <!--&lt;!&ndash;<div>Please click on the appropriate link for your device.</div>&ndash;&gt;-->
-    <!--&lt;!&ndash;<div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" >{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>&ndash;&gt;
-    -->
-    <!--&lt;!&ndash;<div ng-repeat="asset in assets"><a ng-href="{{asset.fields.file.url}}" ng-click="openReceiver(asset.fields.url)">{{asset.fields.title}}-{{asset.fields.file.fileName}}</a></div>&ndash;&gt;
-    -->
-    <!--</div>-->
-
-    <!--************************************************************Backup 12/08/14****************************************************************************************************************-->
-
+</div>
