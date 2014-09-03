@@ -1,46 +1,37 @@
 'use strict';
 
 /* Services */
-landingApp.service('helperService', function () {
-    this.isDesktop = true;
-    this.isAndroid = false;
-    this.isIos = false;
-    this.version = null;
-});
 
-landingApp.factory('myService', function ($log, $window, $cookieStore, $location, helperService) {
+landingApp.factory('deviceService', function ($log, $window, $cookieStore, $location,deviceType) {
 
     return function () {
 
+
         if (/Android|webOS|iPhone|iPad|iPod|PlayBook|BlackBerry|IEMobile|Opera Mini|SymbianOS/i.test(navigator.userAgent)) {
+            //Filter for mobile devices. This service runs at app start
 
             if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-                $log.info('You are on an Ios device');
-                helperService.isIos = true;
+                deviceType.isIos = true;
             }
             else if (/Android/i.test(navigator.userAgent)) {
-                $log.info('You are on an Android device');
-                helperService.isAndroid = true;
+                deviceType.isAndroid = true;
             }
             else if (/webOS|PlayBook|BlackBerry|IEMobile|Opera Mini|SymbianOS/i.test(navigator.userAgent)) {
                 //what receiver files will these use? e.g, nokia = SymbianOA; Nokia Lumia = IEMobile?;
+//                deviceType.isIos = true;//for now have these os's follow IOS as will be using the same config file
+
             }
 
-            helperService.isDesktop = false;
+            deviceType.isDesktop = false;
 
-            $log.info('You are on a mobile device. ');
-            //open native receiver. search for citrix receiver.exe?? Get receiver file
             $location.path('/CountryPicker');
         }
         else {
-
-            $log.info('you are using a desktop');
-
+            //you are on a desktop
             var cookie = $cookieStore.get('aoCookie');
             if (cookie != undefined) {
 
                 //Go to office of aoCookie value
-//                window.open(cookie.message);
                 $window.location.href = cookie.message;
 
             } else {
@@ -94,10 +85,6 @@ landingApp.factory('utilityService', function () {
         }
     }
 
-});
-
-landingApp.run(function (myService) {
-    myService();
 });
 
 

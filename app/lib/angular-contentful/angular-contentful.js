@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module('angular-contentful', [])
+angular.module('angular-1.2.10-contentful', [])
 
     // start:contentful base URI's
     .constant('contentfulBaseUrls', {
@@ -152,6 +152,9 @@ angular.module('angular-contentful', [])
 
                         return $http({
                             method: 'GET',
+//                            headers: {
+//                                'Content-Type': 'application/octet-stream'
+//                            },
                             url: url,
                             params:query
                         });

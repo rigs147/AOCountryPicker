@@ -2,35 +2,29 @@
 
 /* Controllers */
 
-landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $cookieStore, contentfulConfig, contentful, utilityService, helperService, $window, $filter) {
+landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log, $cookieStore, contentfulConfig, contentful, utilityService, deviceType, version, $window, $filter) {
 
     $scope.name = "CountryPickerCtrl";
-    $scope.isDesktop = helperService.isDesktop;
-    $scope.isAndroid = helperService.isAndroid;
-    $scope.isIos = helperService.isIos;
-
+    $scope.isDesktop = deviceType.isDesktop;
+    $scope.isAndroid = deviceType.isAndroid;
+    $scope.isIos = deviceType.isIos;
 
     // check that the config is set
     $scope.spaceId = contentfulConfig.spaceId;
     $scope.accessToken = contentfulConfig.accessToken;
-    $scope.version = helperService.version;
+    $scope.version = version.version;
+
+    $scope.isProgress = false;
 
     var spaceid, query, contentTypes;
 
-
     spaceid = contentfulConfig.spaceId;
 
-
-    // get the content types first
-//    $scope.ctrlOutput = utilityService.getItemByName("Mike");
-
-
-//    if(IE){
-//
-//    }
-
+    $scope.isProgress = true;
     contentful.contentDelivery.httpGet(spaceid, "content_types").then(
         function (response) { // SUCCESS CALLBACK
+
+//            $scope.isProgress = true;
 
             console.log('SUCCESS CALLBACK', response); // todo: delete me
 
@@ -69,15 +63,15 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
                     //end of error handling
 
                     //Seans change - Need to get all assets only for mobile only page
-                    $scope.assets = assets;
-                    $log.info(assets);
+                    $scope.assets = assets;//todo: no longer needed
+                    $log.info(assets);//todo: delete
                     //end of seans change
 
                     // roll up entries and assets into the country items...
                     _.forEach(items, function (item) {
 
 
-                        //sean
+                        //get the flag for each country item
                         var foundFlag = utilityService.getAssetById(item.fields.flag.sys.id, assets);
                         item.fields.flag = foundFlag;
                         //end sean
@@ -87,7 +81,6 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
                         var foundOffices = [];
 
                         _.forEach(item.fields.office, function (office) {
-
 
 
                             var foundOffice = utilityService.getEntryById(office.sys.id, entries);
@@ -118,7 +111,6 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
                         item.fields.office = foundOffices;
 
 
-
                     });
                     // END: POST PROCESS
 
@@ -127,32 +119,57 @@ landingApp.controller('CountryPickerCtrl', function (myService, $scope, $log, $c
 
                     $scope.countries = countryResponse.data.items;
 
+//                    $scope.isProgress = false;
 
                 }, function (data, status, headers, config) { // ERROR CALLBACK
 
                     console.log("ERROR country get:" + data); // todo: delete me
+//                    $scope.isProgress = false;
 
 
                 });
 
-
+            $scope.isProgress = false;
         },
         function (data, status, headers, config) { // ERROR CALLBACK
             console.log("ERROR content type get:" + data); // todo: delete me
+            $scope.isProgress = false;
 
         }
     ).then();
 
-    $scope.pushCookie = function(officeUrl) {
+    //set cookie so netscaler URL is saved
+    $scope.pushCookie = function (officeUrl) {
         $cookieStore.put('aoCookie', { message: officeUrl });
-        $log.info($cookieStore.get('aoCookie').message);
     };
 
     //Can't use generic filter as can't discern between office and country (both fields.name)
-    $scope.countrySearch = function(country) {
-        var countryName = [country.fields.name]; // Wrapping in array since the 'filter' $filter expects an array.
-        var matches = $filter('filter')(countryName, $scope.searchTerm); // Running country name through filter searching for $scope.searchTerm
-        return matches.length > 0;
+    $scope.countrySearch = function (country) {
+
+        if ($scope.searchTerm) {
+            var countryName = [country.fields.name]; // Wrapping in array since the 'filter' $filter expects an array.
+            var countrySearch = countryName[0].slice(0, $scope.searchTerm.length);
+            var matches = $filter('filter')(countrySearch.toUpperCase(), $scope.searchTerm.toUpperCase()); // Running country name through filter searching for $scope.searchTerm
+            if(countrySearch.toUpperCase() !== $scope.searchTerm.toUpperCase())matches = 0;
+            return matches.length > 0;
+        }
+        else {
+            return true;
+        }
     }
 
 });
+
+//var countryName = [country.fields.name]; // Wrapping in array since the 'filter' $filter expects an array.
+//var length;
+//
+//
+//if($scope.searchTerm) {
+//    length = $scope.searchTerm.length
+//    var matches = $filter('filter')(countryName[0].slice(0, length), $scope.searchTerm); // Running country name through filter searching for $scope.searchTerm
+//    return matches.length > 0;
+//}
+//else {
+//    var matches = $filter('filter')(countryName, $scope.searchTerm); // Running country name through filter searching for $scope.searchTerm
+//    return matches.length > 0;
+//}
