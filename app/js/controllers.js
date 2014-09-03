@@ -14,7 +14,7 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
     $scope.accessToken = contentfulConfig.accessToken;
     $scope.version = version.version;
 
-    $scope.isProgress = false;
+//    $scope.isProgress = false;
 
     var spaceid, query, contentTypes;
 
@@ -23,8 +23,6 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
     $scope.isProgress = true;
     contentful.contentDelivery.httpGet(spaceid, "content_types").then(
         function (response) { // SUCCESS CALLBACK
-
-//            $scope.isProgress = true;
 
             console.log('SUCCESS CALLBACK', response); // todo: delete me
 
@@ -115,17 +113,14 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
                     // END: POST PROCESS
 
                     console.log("COUNTRIES POST PROCESS", countryResponse.data.items); // todo: delete me
-//                    console.log(JSON.stringify(countryResponse.data.items));
 
                     $scope.countries = countryResponse.data.items;
 
-//                    $scope.isProgress = false;
 
                 }, function (data, status, headers, config) { // ERROR CALLBACK
 
                     console.log("ERROR country get:" + data); // todo: delete me
-//                    $scope.isProgress = false;
-
+                    $scope.isProgress = false;
 
                 });
 
@@ -159,17 +154,3 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
     }
 
 });
-
-//var countryName = [country.fields.name]; // Wrapping in array since the 'filter' $filter expects an array.
-//var length;
-//
-//
-//if($scope.searchTerm) {
-//    length = $scope.searchTerm.length
-//    var matches = $filter('filter')(countryName[0].slice(0, length), $scope.searchTerm); // Running country name through filter searching for $scope.searchTerm
-//    return matches.length > 0;
-//}
-//else {
-//    var matches = $filter('filter')(countryName, $scope.searchTerm); // Running country name through filter searching for $scope.searchTerm
-//    return matches.length > 0;
-//}
