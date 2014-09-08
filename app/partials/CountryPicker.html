@@ -25,8 +25,8 @@
         <div class="panel padding-large aobackground-LightNeutrals-Titanium">
 
             <div ng-show="!isDesktop">
-                <div ng-show="isAndroid" class="alert alert-dismissable alert-info">This is an Android device. Download of Citrix Receiver app is required; visit the Play Store to locate and download it.</div>
-                <div ng-show="isIos" class="alert alert-dismissable alert-info">Download of Citrix Receiver app is required; visit the App Store to locate and download it and then continue with the next steps to set up your Apple device.</div>
+                <div ng-show="isAndroid" class="alert alert-dismissable alert-info">This is an Android device. Download of Citrix Receiver app is required; visit the Play Store to locate and download it.<br><a ng-href="http://play.google.com/store/apps">Play Store</a></div>
+                <div ng-show="isIos" class="alert alert-dismissable alert-info">Download of Citrix Receiver app is required; visit the App Store to locate and download it and then continue with the next steps to set up your Apple device.<br><a ng-href="http://apple.com">App Store</a></div>
                 <div ng-show="!isDesktop&&!isAndroid&&!isIos" class="alert alert-dismissable alert-info">Download of Citrix Receiver app is required.</div>
             </div>
 
