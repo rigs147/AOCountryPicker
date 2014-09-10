@@ -154,3 +154,14 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
     }
 
 });
+
+landingApp.controller('DeleteCookieCtrl', function ($scope, $log, $cookieStore, $location) {
+    var cookie = $cookieStore.get('aoCookie');
+
+    if (cookie != undefined) {
+
+        $cookieStore.remove('aoCookie');
+    }
+    $location.path('/CountryPicker');
+
+});

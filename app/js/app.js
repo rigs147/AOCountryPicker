@@ -20,6 +20,7 @@ landingApp.constant('version' , {
 
 landingApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/CountryPicker', {templateUrl: 'partials/CountryPicker.html', controller: 'CountryPickerCtrl'});
+    $routeProvider.when('/deleteCookie', {templateUrl: 'partials/deleteCookie.html', controller: 'DeleteCookieCtrl'});
   $routeProvider.otherwise({redirectTo: '/CountryPicker'});
 }]);
 
