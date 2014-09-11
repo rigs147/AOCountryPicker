@@ -2,10 +2,14 @@
 
 /* Services */
 
-landingApp.factory('deviceService', function ($log, $window, $cookieStore, $location,deviceType) {
+landingApp.factory('deviceService', function ($log, $window, $cookieStore, $location, deviceType) {
 
     return function () {
 
+
+        console.log($location.path());
+        console.log('yo');
+        $log.info('yo');
 
         if (/Android|webOS|iPhone|iPad|iPod|PlayBook|BlackBerry|IEMobile|Opera Mini|SymbianOS/i.test(navigator.userAgent)) {
             //Filter for mobile devices. This service runs at app start
@@ -42,6 +46,8 @@ landingApp.factory('deviceService', function ($log, $window, $cookieStore, $loca
         }
     }
 });
+
+
 
 landingApp.factory('utilityService', function () {
 
@@ -84,6 +90,18 @@ landingApp.factory('utilityService', function () {
 
         }
     }
+
+});
+
+deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window) {
+
+    var cookie = $cookieStore.get('aoCookie');
+
+    if (cookie != undefined) {
+        $cookieStore.remove('aoCookie');
+    }
+//    $location.path('/CountryPicker');
+    $window.location.href = 'http://myallenoverylandingpage.azurewebsites.net/app/index.html';
 
 });
 

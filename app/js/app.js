@@ -20,7 +20,7 @@ landingApp.constant('version' , {
 
 landingApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/CountryPicker', {templateUrl: 'partials/CountryPicker.html', controller: 'CountryPickerCtrl'});
-    $routeProvider.when('/deleteCookie', {templateUrl: 'partials/deleteCookie.html', controller: 'DeleteCookieCtrl'});
+//  $routeProvider.when('/DeleteCookie', {templateUrl: 'partials/DeleteCookie.html', controller: 'DeleteCookieCtrl'});
   $routeProvider.otherwise({redirectTo: '/CountryPicker'});
 }]);
 
@@ -29,4 +29,21 @@ landingApp.run(function(contentfulConfig, deviceService, version){
     contentfulConfig.accessToken = "2e7c6010bb1c87d6e0714e178c464c99719e3d55d4015d71cb723b58a156bd2b";
     version.version = 1;
     deviceService();
+});
+
+var deleteCookieApp = angular.module('deleteCookieApp', [
+    'ngRoute',
+    'ngCookies',
+    'ngResource',
+    'angular-1.2.10-contentful'
+]);
+
+//deleteCookieApp.config(['$routeProvider', function($routeProvider) {
+//    $routeProvider.when('/CountryPicker', {templateUrl: 'partials/CountryPicker.html', controller: 'CountryPickerCtrl'});
+//    $routeProvider.when('/DeleteCookie', {templateUrl: 'partials/DeleteCookie.html', controller: 'DeleteCookieCtrl'});
+//    $routeProvider.otherwise({redirectTo: '/CountryPicker'});
+//}]);
+
+deleteCookieApp.run(function(deleteCookieService){
+    deleteCookieService();
 });
