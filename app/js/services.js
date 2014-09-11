@@ -93,12 +93,14 @@ landingApp.factory('utilityService', function () {
 
 });
 
-deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window) {
+deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window, $cookies) {
 
     var cookie = $cookieStore.get('aoCookie');
 
     if (cookie != undefined) {
         $cookieStore.remove('aoCookie');
+        cookie = undefined;
+        console.log(cookie);
     }
 //    $location.path('/CountryPicker');
     $window.location.href = 'http://myallenoverylandingpage.azurewebsites.net/app/index.html';
