@@ -102,8 +102,6 @@ deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window, 
         cookie = undefined;
         console.log(cookie);
         location.reload();
-        $rootScope.apply();
-//        $scope.$digest();
     }
 //    $location.path('/CountryPicker');
     $window.location.href = 'http://myallenoverylandingpage.azurewebsites.net/app/index.html';
