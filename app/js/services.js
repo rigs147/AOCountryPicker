@@ -93,11 +93,12 @@ landingApp.factory('utilityService', function () {
 
 });
 
-deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window, $rootScope) {
+deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window) {
 
     var cookie = $cookieStore.get('aoCookie');
 
     if (cookie != undefined) {
+        $cookieStore.put('seanCookie');
         $cookieStore.remove('aoCookie');
         cookie = undefined;
         console.log(cookie);
