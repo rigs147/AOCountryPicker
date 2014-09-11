@@ -32,10 +32,8 @@ landingApp.run(function(contentfulConfig, deviceService, version){
 });
 
 var deleteCookieApp = angular.module('deleteCookieApp', [
-    'ngRoute',
     'ngCookies',
-    'ngResource',
-    'angular-1.2.10-contentful'
+    'ngResource'
 ]);
 
 //deleteCookieApp.config(['$routeProvider', function($routeProvider) {
