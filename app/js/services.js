@@ -93,7 +93,7 @@ landingApp.factory('utilityService', function () {
 
 });
 
-deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window, $cookies, $scope) {
+deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window, $rootScope) {
 
     var cookie = $cookieStore.get('aoCookie');
 
@@ -101,7 +101,8 @@ deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window, 
         $cookieStore.remove('aoCookie');
         cookie = undefined;
         console.log(cookie);
-        $scope.apply();
+        location.reload();
+        $rootScope.apply();
 //        $scope.$digest();
     }
 //    $location.path('/CountryPicker');
