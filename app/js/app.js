@@ -3,8 +3,7 @@
 var landingApp = angular.module('landingApp', [
     'ngRoute',
     'ngCookies',
-    'ngResource',
-    'angular-1.2.10-contentful'
+    'ngResource'
 ]);
 
 //possible device types. There are only 2 citrix congig files/ .cr and .xml. Android .xml and all other os's are .cr for now.
@@ -24,9 +23,7 @@ landingApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/CountryPicker'});
 }]);
 
-landingApp.run(function(contentfulConfig, deviceService, version){
-    contentfulConfig.spaceId = "8u2cofzt5au2";
-    contentfulConfig.accessToken = "2e7c6010bb1c87d6e0714e178c464c99719e3d55d4015d71cb723b58a156bd2b";
+landingApp.run(function(deviceService, version){
     version.version = 1;
     deviceService();
 });
