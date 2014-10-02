@@ -2,208 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba798c-b92e-41ae-9140-2b8913df67cd" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Australia-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Australia-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Australia-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Australia-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Australia-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Australia-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Australia-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Belgium-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Belgium-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Belgium-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Belgium-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Belgium-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Belgium-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Belgium-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Brazil-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Brazil-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Brazil-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Brazil-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Brazil-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Brazil-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Brazil-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\China-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\China-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\China-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\China-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\China-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\China-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\China-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Czech-Republic-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Czech-Republic-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Czech-Republic-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Czech-Republic-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Czech-Republic-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Czech-Republic-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Czech-Republic-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\France-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\France-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\France-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\France-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\France-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\France-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\France-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Germany-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Germany-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Germany-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Germany-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Germany-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Germany-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Germany-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Greece-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Greece-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Greece-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Greece-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Greece-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Greece-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Greece-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Hungary-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Hungary-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Hungary-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Hungary-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Hungary-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Hungary-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Hungary-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Indonesia-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Indonesia-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Indonesia-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Indonesia-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Indonesia-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Indonesia-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Indonesia-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Italy-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Italy-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Italy-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Italy-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Italy-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Italy-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Italy-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Japan-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Japan-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Japan-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Japan-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Japan-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Japan-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Japan-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Luxembourg-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Luxembourg-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Luxembourg-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Luxembourg-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Luxembourg-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Luxembourg-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Luxembourg-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Morocco-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Morocco-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Morocco-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Morocco-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Morocco-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Morocco-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Netherlands-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Netherlands-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Netherlands-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Netherlands-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Netherlands-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Netherlands-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Netherlands-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Poland-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Poland-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Poland-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Poland-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Poland-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Poland-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Poland-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Qatar-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Qatar-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Qatar-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Qatar-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Qatar-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Qatar-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Qatar-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Russia-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Russia-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Russia-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Russia-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Russia-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Russia-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Russia-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Saudi-Arabia-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Saudi-Arabia-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Saudi-Arabia-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Saudi-Arabia-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Saudi-Arabia-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Saudi-Arabia-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Saudi-Arabia-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Singapore-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Singapore-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Singapore-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Singapore-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Singapore-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Singapore-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Singapore-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Slovakia-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Slovakia-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Slovakia-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Slovakia-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Slovakia-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Slovakia-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Slovakia-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Spain-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Spain-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Spain-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Spain-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Spain-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Spain-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Spain-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Thailand-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Thailand-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Thailand-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Thailand-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Thailand-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Thailand-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Thailand-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Turkey-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Turkey-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Turkey-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Turkey-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Turkey-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Turkey-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Turkey-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Arab-Emirates-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Arab-Emirates-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Arab-Emirates-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Arab-Emirates-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Arab-Emirates-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Arab-Emirates-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Arab-Emirates-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Kingdom-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Kingdom-flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Kingdom-flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Kingdom-flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Kingdom-flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Kingdom-flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-Kingdom-flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-States-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-States-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-States-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-States-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-States-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-States-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\United-States-Flag-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Vietnam-Flag-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Vietnam-Flag-16.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Vietnam-Flag-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Vietnam-Flag-256.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Vietnam-Flag-32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Vietnam-Flag-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\ao_dev\PANYUKOP_AVALONALL_RIGNEYS\AvalonApps\my-allenovery\MAIN\src\my-allenovery-landing-app\app\img\flags\Vietnam-Flag-64.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/CountryPicker.html" afterPath="$PROJECT_DIR$/partials/CountryPicker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="816">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="816">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding>
                 <marker date="1412260722724" expanded="true" signature="600:605" placeholder="..." />
               </folding>
@@ -258,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1585" max-vertical-offset="104822">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state vertical-scroll-proportion="3.569395" vertical-offset="3417" max-vertical-offset="104822">
+              <caret line="378" column="26" selection-start-line="378" selection-start-column="26" selection-end-line="378" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -288,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountryPicker.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CountryPicker.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/CountryPicker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59825873" vertical-offset="845" max-vertical-offset="1802">
-              <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+            <state vertical-scroll-proportion="-10.653846" vertical-offset="794" max-vertical-offset="1802">
+              <caret line="63" column="129" selection-start-line="63" selection-start-column="129" selection-end-line="63" selection-end-column="129" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -321,13 +120,13 @@
         <option value="$PROJECT_DIR$/deleteCookie.html" />
         <option value="$PROJECT_DIR$/a.html" />
         <option value="$PROJECT_DIR$/DeleteCookie.html" />
-        <option value="$PROJECT_DIR$/partials/CountryPicker.html" />
         <option value="$PROJECT_DIR$/data/package.json" />
         <option value="$PROJECT_DIR$/js/services.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/data/data.js" />
+        <option value="$PROJECT_DIR$/partials/CountryPicker.html" />
       </list>
     </option>
   </component>
@@ -393,6 +192,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IosConfigFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="US" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IosConfigFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,14 +364,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1923077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1923077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36593786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -909,36 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104822">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.76" vertical-offset="0" max-vertical-offset="102952">
           <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="816">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <marker date="1412260722724" expanded="true" signature="600:605" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -951,13 +792,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="816">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <marker date="1412260722724" expanded="true" signature="600:605" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/CountryPicker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59825873" vertical-offset="845" max-vertical-offset="1802">
-          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        <state vertical-scroll-proportion="-10.653846" vertical-offset="794" max-vertical-offset="1802">
+          <caret line="63" column="129" selection-start-line="63" selection-start-column="129" selection-end-line="63" selection-end-column="129" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.569395" vertical-offset="3417" max-vertical-offset="104822">
+          <caret line="378" column="26" selection-start-line="378" selection-start-column="26" selection-end-line="378" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
