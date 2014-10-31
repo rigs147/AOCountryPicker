@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log, $cookieStore, deviceType, version, $window, $filter, countryData) {
+landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log, $cookieStore, deviceType, version, $window, $filter, $resource) {
 
     $scope.name = "CountryPickerCtrl";
     $scope.isDesktop = deviceType.isDesktop;
@@ -13,9 +13,15 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
 
     $scope.isProgress = true;
 
-    $scope.countries = countryData.countries;
+//    $scope.countries = countryData.countries;
+    $resource('data/data.json').get(
+        function (data) {
+            $scope.countries = data.countries;
+            $scope.isProgress = false;
+        }    
+    );
 
-    $scope.isProgress = false;
+//    $scope.isProgress = false;
 
     //set cookie so netscaler URL is saved
     $scope.pushCookie = function (officeUrl) {
@@ -36,6 +42,9 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
             return true;
         }
     }
+
+
+
 
 });
 
