@@ -2,7 +2,7 @@
 
 /* Services */
 
-landingApp.factory('deviceService', function ($log, $window, $cookieStore, $location, deviceType) {
+landingApp.factory('deviceService', function ($log, $window, $cookieStore, $location, deviceType, localStorageService) {
 
     return function () {
 
@@ -18,11 +18,6 @@ landingApp.factory('deviceService', function ($log, $window, $cookieStore, $loca
             else if (/Android/i.test(navigator.userAgent)) {
                 deviceType.isAndroid = true;
             }
-//            else if (/webOS|PlayBook|BlackBerry|IEMobile|Opera Mini|SymbianOS/i.test(navigator.userAgent)) {
-//                //what receiver files will these use? e.g, nokia = SymbianOA; Nokia Lumia = IEMobile?;
-////                deviceType.isIos = true;//for now have these os's follow IOS as will be using the same config file
-//
-//            }
 
             deviceType.isDesktop = false;
 
@@ -30,11 +25,13 @@ landingApp.factory('deviceService', function ($log, $window, $cookieStore, $loca
         }
         else {
             //you are on a desktop
-            var cookie = $cookieStore.get('aoCookie');
+
+            var cookie = localStorageService.get('aoCookie')
+
             if (cookie != undefined) {
 
                 //Go to office of aoCookie value
-                $window.location.href = cookie.message;
+                $window.location.href = cookie;
 
             } else {
                 $location.path('/CountryPicker');
@@ -45,12 +42,13 @@ landingApp.factory('deviceService', function ($log, $window, $cookieStore, $loca
     }
 });
 
-deleteCookieApp.factory('deleteCookieService', function ($cookieStore, $window, $rootScope) {
+deleteCookieApp.factory('deleteCookieService', function ($window, $rootScope, localStorageService) {
 
-    var cookie = $cookieStore.get('aoCookie');
+    var cookie = localStorageService.get('aoCookie');
+
 
     if (cookie != undefined) {
-        $cookieStore.remove('aoCookie');
+        localStorageService.remove('aoCookie');
         $rootScope.$digest();
     }
 

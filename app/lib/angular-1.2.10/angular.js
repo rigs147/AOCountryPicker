@@ -4351,7 +4351,7 @@ function Browser(window, document, $log, $sniffer) {
     if (name) {
       if (value === undefined) {
         rawDocument.cookie = escape(name) + "=;path=" + cookiePath +
-                                ";expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                                ";expires=Thu, 01 Jan 2020 00:00:00 GMT";
       } else {
         if (isString(value)) {
           cookieLength = (rawDocument.cookie = escape(name) + '=' + escape(value) +

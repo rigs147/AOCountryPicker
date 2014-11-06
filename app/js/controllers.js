@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log, $cookieStore, deviceType, version, $window, $filter, $resource) {
+landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log, $cookieStore, deviceType, version, $window, $filter, $resource, localStorageService) {
 
     $scope.name = "CountryPickerCtrl";
     $scope.isDesktop = deviceType.isDesktop;
@@ -13,7 +13,6 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
 
     $scope.isProgress = true;
 
-//    $scope.countries = countryData.countries;
     $resource('data/data.json').get(
         function (data) {
             $scope.countries = data.countries;
@@ -21,11 +20,11 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope, $log
         }    
     );
 
-//    $scope.isProgress = false;
-
     //set cookie so netscaler URL is saved
     $scope.pushCookie = function (officeUrl) {
-        $cookieStore.put('aoCookie', { message: officeUrl });
+
+        localStorageService.set('aoCookie', officeUrl);
+
     };
 
     //Can't use generic filter as can't discern between office and country (both fields.name)
