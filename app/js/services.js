@@ -2,7 +2,7 @@
 
 /* Services */
 
-landingApp.factory('deviceService', function ($log, $window, $cookieStore, $location, deviceType, localStorageService) {
+landingApp.factory('deviceService', function ($log, $window, $location, deviceType, localStorageService) {
 
     return function () {
 
