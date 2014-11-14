@@ -13,7 +13,7 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope,  dev
 
     $scope.isProgress = true;
 
-    $resource('data/data.json').get(
+    $resource('data.json').get(
         function (data) {
             $scope.countries = data.countries;
             $scope.isProgress = false;
