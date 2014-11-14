@@ -2,12 +2,9 @@
 
 /* Services */
 
-landingApp.factory('deviceService', function ($log, $window, $location, deviceType, localStorageService) {
+landingApp.factory('deviceService', function ($window, $location, deviceType, localStorageService) {
 
     return function () {
-
-
-        console.log($location.path());
 
         if (/Android|webOS|iPhone|iPad|iPod|PlayBook|BlackBerry|IEMobile|Opera Mini|SymbianOS/i.test(navigator.userAgent)) {
             //Filter for mobile devices. This service runs at app start

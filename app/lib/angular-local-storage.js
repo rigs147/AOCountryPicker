@@ -20,7 +20,7 @@ angularLocalStorage.provider('localStorageService', function() {
     // expiry = Number of days before cookies expire // 0 = Does not expire
     // path = The web path the cookie represents
     this.cookie = {
-        expiry: 30,
+        expiry: 0,
         path: '/'
     };
 
