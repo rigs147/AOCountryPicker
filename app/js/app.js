@@ -20,6 +20,7 @@ landingApp.constant('version' , {
 
 landingApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/CountryPicker', {templateUrl: 'partials/CountryPicker.html', controller: 'CountryPickerCtrl'});
+  $routeProvider.when('/Redirect', {templateUrl: 'partials/Redirect.html'});
   $routeProvider.otherwise({redirectTo: '/CountryPicker'});
 }]);
 
@@ -29,7 +30,7 @@ landingApp.config(function (localStorageServiceProvider) {
 });
 
 landingApp.run(function(deviceService, version){
-    version.version = 1;
+    version.version = 1.1;
     deviceService();
 });
 

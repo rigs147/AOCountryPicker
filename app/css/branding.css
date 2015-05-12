@@ -267,6 +267,17 @@ h3 {
     font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
     padding-bottom: 10px;
 }
+
+.ao-rteElement-H3 {
+    color: #b23427;
+    font-size: 1.8em;
+    font-weight: normal !important;
+    font-style: italic;
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    padding-left: 15px
+}
+
 .ao-rteElement-H2Component {
     border-bottom: 1px solid #8b9b93;
     color: #636466;

@@ -45,9 +45,5 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope,  dev
             return true;
         }
     }
-
-
-
-
 });
 

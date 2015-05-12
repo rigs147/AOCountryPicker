@@ -21,7 +21,7 @@ landingApp.factory('deviceService', function ($window, $location, deviceType, lo
             $location.path('/CountryPicker');
         }
         else {
-            //you are on a desktop
+                //you are on a desktop
 
             var cookie = localStorageService.get('aoCookie')
 
@@ -29,12 +29,13 @@ landingApp.factory('deviceService', function ($window, $location, deviceType, lo
 
                 //Go to office of aoCookie value
                 $window.location.href = cookie;
+                $location.path('/Redirect');
+
 
             } else {
                 $location.path('/CountryPicker');
 
-            }
-
+             }
         }
     }
 });
