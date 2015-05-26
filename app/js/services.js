@@ -21,7 +21,9 @@ landingApp.factory('deviceService', function ($window, $location, deviceType, lo
             $location.path('/CountryPicker');
         }
         else {
-                //you are on a desktop
+            //you are on a desktop
+
+            
 
             var cookie = localStorageService.get('aoCookie')
 

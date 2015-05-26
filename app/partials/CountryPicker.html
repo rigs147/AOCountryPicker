@@ -18,6 +18,13 @@
         the country of your normal home office location which means that, when you access this site again, you will be directed immediately to the <b>Sign in</b> page rather than see this page.
     </div>
 
+    <!--<div class="alert alert-dismissable alert-info" ng-hide="npapiCheck()" ng-hide="hide"-->
+         <!--ng-click="hide = true">-->
+        <!--<button type="button" class="close" data-dismiss="alert">&times;</button>-->
+        <!--It appears you are using Google Chrome. Please click on this <a ng-click="openSettings()">link</a> to re-enable-->
+        <!--the use of NPAPI plugin which is necessary for Citrix applications.-->
+    <!--</div>-->
+
     <div class="">
         <div class="panel padding-large aobackground-LightNeutrals-Titanium">
 
@@ -68,7 +75,7 @@
                         <div ng-show="isAndroid">
                             <div class="col-xs-6 col col-sm-3 col-md-2 text-center">
                                 <a class="thumbnail aobackground-LightNeutrals-Silver"
-                                   ng-href="{{country.fields.office[0].fields.netscaler.fields.androidConfigUrl}}"
+                                   ng-click="download(country.fields.office[0].fields.netscaler.fields.androidConfigUrl)"
                                    download="{{country.fields.office[0].fields.netscaler.fields.config.1.fields.file.fileName}}">
                                     <img class=""
                                          ng-src="{{country.fields.flagLocalUrl}}"/>&nbsp;{{country.fields.name}}</a>

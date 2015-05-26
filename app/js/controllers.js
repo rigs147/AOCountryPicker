@@ -31,6 +31,10 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope,  dev
 
     };
 
+    $scope.download = function (url) {
+        $resource(url);
+    };
+
     //Can't use generic filter as can't discern between office and country (both fields.name)
     $scope.countrySearch = function (country) {
 
@@ -45,5 +49,59 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope,  dev
             return true;
         }
     }
+
+//    $scope.npapiCheck = function() {
+//
+//        var isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+//
+//        if (isChrome) {
+//            var plugins = navigator.plugins;
+//
+//            for (var i = 0; i < plugins.length; i++) {
+//                if (plugins[i].filename == "NPAUTHZ.DLL") {//File name linked to the enabling of the NPAPI plugin.
+//                    return true;
+//                }
+//
+//            }
+//        }
+//        return false;
+//    };
+//
+//    $scope.openSettings = function () {
+//        window.open("http://kb.berkeley.edu/page.php?id=50713");
+//    }
+
+
 });
 
+//landingApp.controller('aoCtrl', function ($scope) {
+//
+//    $scope.noNpapi = false;
+//
+//    $scope.isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+//
+//    if ($scope.isChrome) {
+//        var plugins = navigator.plugins;
+//
+//        for (var i = 0; i < plugins.length; i++) {
+//            if (plugins[i].filename == "NPAUTHZ.DLL") {//File name linked to the enabling of the NPAPI plugin.
+//                $scope.noNpapi = false;
+//                break;
+//                ;
+//            }
+//            else{
+//                $scope.noNpapi = true;
+//            }
+//
+//        }
+//
+//    }
+//
+//    $scope.openSettings = function () {
+//        window.open("http://kb.berkeley.edu/page.php?id=50713");
+//    }
+//
+////    $scope.$apply(function () {
+////        $scope.noNpapi = NPAPI;
+////    });
+//});
