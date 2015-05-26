@@ -46,8 +46,8 @@
       <file leaf-file-name="directives.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2218268" vertical-offset="0" max-vertical-offset="884">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="2" selection-end-line="46" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.32265717" vertical-offset="0" max-vertical-offset="884">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -751,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2218268" vertical-offset="0" max-vertical-offset="884">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="2" selection-end-line="46" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.32265717" vertical-offset="0" max-vertical-offset="884">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
           <folding />
         </state>
       </provider>
