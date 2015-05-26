@@ -31,10 +31,10 @@ landingApp.controller('CountryPickerCtrl', function (deviceService, $scope,  dev
 
     };
 
-    $scope.download = function (url) {
-        $resource(url);
-        console.log($resource);
-    };
+//    $scope.download = function (url) {
+//        $resource(url);
+//        console.log($resource);
+//    };
 
     //Can't use generic filter as can't discern between office and country (both fields.name)
     $scope.countrySearch = function (country) {
