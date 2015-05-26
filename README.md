@@ -1,2 +1,0 @@
-# LandingPage
-MyAllenOvery landing app
